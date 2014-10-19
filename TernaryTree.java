@@ -174,8 +174,6 @@ class TreeOperation {
 	 * Display Tree structure in Pre-Order i.e Root --> Left --> Middle --> Right
 	 */
 	public void displayTree(TreeNode rootNode) {
-		Queue<String> displayQ = new LinkedList<String>();
-		Iterator iteratorObj = displayQ.iterator();
 		TreeNode tempNode = rootNode;
 		try {
 			if (rootNode != null) {
